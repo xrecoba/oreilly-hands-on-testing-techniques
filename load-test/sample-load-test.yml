@@ -1,0 +1,23 @@
+execution:
+- concurrency: 10
+  ramp-up: 20s
+  hold-for: 10s
+  scenario: demo-load-test
+
+scenarios:
+  demo-load-test:
+    headers:
+      User-Agent: 'Mozilla/5.0 TrovitBot (X11; Linux x86_64) AppleWebKit/537.36'
+    # think-time: 500ms
+    requests:
+    - https://casas.trovit.es/
+    - https://casas.trovit.es/venta-nave
+    - https://casas.trovit.es/nave-industrial-region-murcia
+
+reporting:
+  - final-stats
+  - console
+  - blazemeter
+  - module: passfail
+    criteria:
+      - avg-rt < 1500 ms for 4s, stop as failed

@@ -1,0 +1,11 @@
+From: Airport, Non-Airport
+To: Airport, Non-Airport
+Return-place: Same, Different
+Car-type: Mini, Economy, Compact, Suv, Van, Limo
+Days: 1, 2-to-13, 14
+GPS: Yes, No
+Child-seats: 0, 1, 2, 3
+Insurance: Yes, No
+
+IF [Car-type] in {"Mini", "Economy", "Compact"} THEN [Child-seats] <> 3;
+IF [Return-place] = "Same" THEN [FROM] = [TO];
