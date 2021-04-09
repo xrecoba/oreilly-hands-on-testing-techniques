@@ -1,0 +1,17 @@
+POST /api/a-sample-post HTTP/1.1
+user-agent: test
+content-type: text/json
+authorization: your_api_key
+accept-encoding: gzip, deflate
+content-length: 673
+Host: 127.0.0.1:8080
+Connection: close
+
+{
+  "id": "1a8b8863-a859-4d68-b63a-c466e554fd13",
+  "name": "Ada Lovelace",
+  "email": "ada@geemail.com",
+  "bio": "First programmer. No big deal.",
+  "age": 198,
+  "avatar": "http://en.wikipedia.org/wiki/File:Ada_lovelace.jpg"
+}

@@ -1,0 +1,1 @@
+docker run -it --rm -v $(pwd):/bzt-configs -v $(pwd)/taurus-artifacts:/tmp/artifacts blazemeter/taurus sample-load-test.yml

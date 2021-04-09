@@ -14,7 +14,7 @@
 - [Graphwalker (Model Based Testing testing tool](https://youtu.be/psOThLDKOFc)
 - [James A. Whittaker, Exploratory testing](https://learning.oreilly.com/library/view/exploratory-software-testing/9780321647863/)
 - [Software characteristics, useful for Test Responsability Matrix](https://en.wikipedia.org/wiki/Non-functional_requirement)
-- [OWASP security checklist](https://www.owasp.org/index.php/Testing_Checklist)
+- [OWASP security checklist](https://github.com/0xRadi/OWASP-Web-Checklist)
 - [Big list of nasty strings checklist](https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/LICENSE)
 - [Rikard Edgren's test strategy checklist](http://thetesteye.com/posters/TestStrategyChecklist.pdf)
 - [Error guessing](https://www.softwaretestinghelp.com/error-guessing-technique/)
