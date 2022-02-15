@@ -17,7 +17,6 @@
 - [OWASP security checklist](https://github.com/0xRadi/OWASP-Web-Checklist)
 - [Big list of nasty strings checklist](https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/LICENSE)
 - [Rikard Edgren's test strategy checklist](http://thetesteye.com/posters/TestStrategyChecklist.pdf)
-- [How to evolve a context driven test plan by James Bach](https://www.satisfice.com/download/building-a-context-driven-test-plan)
 - [Error guessing](https://www.softwaretestinghelp.com/error-guessing-technique/)
 
 ## Agile Testing and others
