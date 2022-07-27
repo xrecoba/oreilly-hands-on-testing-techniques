@@ -20,4 +20,4 @@ reporting:
   - blazemeter
   - module: passfail
     criteria:
-      - avg-rt < 1500 ms for 4s, stop as failed
+      - avg-rt > 1500 ms for 4s, stop as failed
